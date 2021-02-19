@@ -10,7 +10,10 @@ namespace CalculatorParamns
             int s2 = Calculator.Sum(2, 3, 4);
 
             int a = 10;
+            int triple;
+
             Calculator.Triple(ref a);
+            Calculator.TripleOut(a, out triple);
 
             Console.WriteLine(s1);
             Console.WriteLine(s2);

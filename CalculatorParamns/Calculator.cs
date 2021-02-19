@@ -15,9 +15,15 @@ namespace CalculatorParamns
             }
             return sum;
         }
+
         public static void Triple(ref int x)
         {
             x = x * 10;
+        }
+
+        public static void TripleOut(int origin, out int result)
+        {
+            result = origin * 3;
         }
     }
 }
